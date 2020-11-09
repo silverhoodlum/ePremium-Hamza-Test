@@ -1,0 +1,1090 @@
+body{
+    background-color:#fff; 
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    
+}
+
+/* NavBar */
+
+
+.navbar{
+    padding: 1rem;
+}
+
+.navbar-custom {
+    background-color: rgb(255, 255, 255);
+}
+
+.navbar-toggler{
+    border-color: #bebebe;
+    background-color: #ffffff;
+}
+
+.navbar-toggler-icon{
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%280, 0, 0, 0.5%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e")
+}
+
+#home-icon{
+    display: none;
+}
+
+.logo{
+    position: relative;
+    width: 40px;
+    right: 20px;
+/*    filter:grayscale(100);*/
+}
+
+.tri{
+    position: absolute;
+    top:0;
+    right: 0;
+    z-index: -1;
+    height: 100%;
+    max-height: 72px;
+}
+
+.clicked{
+    background-color: #191919;
+}
+.navbar-nav{
+    margin: 1.5rem 0 1rem 1rem;
+    font-size: 1.2rem;
+}
+
+.nav-link{
+    padding: 1rem 0;
+    color: #dedede;
+}
+
+/* Mains */
+
+.container-fluid{
+    padding: 0;
+}
+
+h1{
+    font-weight: 300;
+}
+
+.row{
+    margin: 0; padding: 0;
+}
+
+.col-12{
+    margin: 0; padding: 0;
+}
+
+.btn{
+    text-transform: uppercase;
+    border-radius: 1px;
+}
+
+.padding{
+    padding: 0 20px;
+}
+
+/* Main Image */
+
+#main-img-wrapper{
+    background-image: url("../assets/images/Mobile/Main_Img_eGolf_Mobile.jpg"); 
+    background-color: #cccccc; 
+    height: 650px; 
+    background-position: center;
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    display: flex;
+    flex-flow: column wrap;
+    margin-top: 72px;
+}
+
+
+#main-text-wrapper{
+    color: #ffffff;
+    padding: 320px 0 0;
+    margin-left: 20%;
+}
+
+
+#main-img-wrapper a{
+    width: 50%;
+    margin: auto auto 30px;
+
+}
+
+.announce{
+    font-size: 2rem;
+    margin: 15% auto 5%;
+}
+
+/* models */
+
+.models{
+    margin: 5% 0;
+    padding-bottom: 2%;
+}
+
+.models img{
+    width: 80%
+}
+
+.models h3{
+    font-size: 1.5rem;
+    line-height: 1.6rem;
+    margin: 0
+}
+    
+
+.models:hover{
+    background-color: #BDCEEF;
+    transform: scale(1.1);
+    border-radius: 6px;
+}
+
+/* Specs */
+
+.container-specs{
+    margin: 15% auto;
+
+}
+
+.container-specs h2{
+    font-size: 1.5rem;
+    font-style: italic;
+    margin-bottom: 5%;
+}
+
+.container-specs ul{
+    list-style-type: none;
+    text-align: start;
+    padding-left: 20px;
+    line-height: 3rem;
+}
+
+.container-specs ul li{
+    border-top: 2px solid #a8a8a8;
+    width: 80%
+}
+
+.container-specs ul li:nth-child(1){
+    border-top: none;
+
+}
+
+#spec-list{
+    margin: 5% 0 10% 10%;
+    border-left: 3px solid #191919;
+}
+
+/* city */
+
+.container-city{
+    height: 100%;
+    
+}
+
+.city-wrapper{
+    position: relative;
+    height: 650px;
+}
+
+
+#city-img{
+    background-image: url("../assets/images/Mobile/eGolf_City_Mobile"); 
+    background-color: #cccccc; 
+    width: 100%;height: 250px;
+    background-position: center;
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    position: absolute;
+    top: 350px;
+    left: 0;
+}
+
+#city-text{
+    position: absolute;
+    top: 100px;
+    left: 0;
+    color: ;
+    margin: 5% 0;
+    z-index: 10;
+    
+}
+
+.container-city h4{
+    text-transform: uppercase;
+}
+
+.container-city p{
+    font-size: .9rem;
+    padding: 5% 10%;
+    text-align: start;
+}
+
+/* call */
+
+.container-call{
+    margin: 10% 5%;
+    font-weight: 300;
+    
+}
+
+.container-call h2{
+    font-weight: 300;
+    font-size: 1.6rem;
+}
+
+.container-call p{
+    font-size: 0.9rem;
+}
+
+/* contact */
+
+#img-interior{
+    width: 100%;
+}
+
+.container-contact{
+    margin: 5% 0 0;
+}
+
+/* Form */
+
+form{
+    margin: 10% auto 20% auto;
+    padding: 10%;
+    border-radius: 4px;
+    -webkit-box-shadow: 0px 1px 17px -6px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 1px 17px -6px rgba(0,0,0,0.75);
+    box-shadow: 0px 1px 17px -6px rgba(0,0,0,0.75);
+    color: #899BAD;
+}
+
+form h4{
+    margin: 0 0 10% 0;
+    color: #202D3A;
+}
+
+form .btn-primary{
+    width: 80%;
+    margin: 10% 0 6%;
+}
+
+.form-group{
+    margin: 6% 0;
+}
+
+/* Footer */
+
+footer{
+    background-color: #191919;
+    padding: 4% 0;
+}
+
+/* dropdown */
+
+footer .navbar {
+    text-align: center;
+    width: 100%; 
+}
+
+footer .navbar-toggler{
+    background-color: transparent;
+    border: none;
+    color: #C6C5C5;
+    font-weight: 300;
+    border-radius: 0;
+    padding-bottom: .5rem;
+}
+
+footer .navbar-nav{
+    flex-flow: column !important;
+    font-size: 1rem;
+    font-weight: 300;
+}
+
+footer .navbar h3{
+    margin: auto;
+    width: 80%;
+    border-bottom: 1px solid #c5c5c5;
+}
+
+footer .navbar h3 span{
+    font-size: 1rem;
+    margin-left: 30%;
+    text-align: right
+}
+
+
+footer .collapsing ul{
+    padding: 0;
+}
+
+footer .collapse ul, footer .collapsing ul{
+    padding: 0;
+    margin: 0;
+}
+
+footer .collapse ul li, footer .collapsing ul li {
+    color: #fff;
+    margin: 4%;
+}
+footer .collapse ul li:nth-child(1), footer .collapsing ul li:nth-child(1) {
+    display: none;
+}
+
+footer .container-footer-links .col-sm-12:nth-child(4){
+    display: none;
+}
+
+/* Container bottom */
+
+.container-logo{
+    text-align: center;
+    margin: 2% 0;
+}
+
+footer .container-footer ul li{
+    list-style-type: none;
+    margin: 4%;
+}
+
+footer ul li a{
+    color: #fff;
+}
+
+footer ul li a:hover{
+    text-decoration: none
+}
+
+footer .logo{
+    padding: 0; 
+    margin: 0 5% 0 0;
+    position: static;
+}
+
+.logo:hover{
+    filter:grayscale(100)
+}
+
+.social-media-img{
+    width: 32px;
+     filter: invert(42%) sepia(93%) saturate(10%) hue-rotate(87deg) brightness(10%) contrast(0%);
+    margin: 2%;
+}
+
+.social-media-img:hover{
+    filter: invert(62%) sepia(53%) saturate(30%) hue-rotate(87deg) brightness(10%) contrast(50%);
+}
+
+/* ---------------  Medium Breakpoint   --------------- */
+/* ---------------  -----------------   --------------- */
+/* ---------------  -----------------   --------------- */
+
+@media (min-width: 768px) { 
+
+    /* Nav Bar  */
+    
+    .navbar-nav{
+    margin: 0 0 0 1rem;
+    font-size: 1.2rem;
+    }
+    
+ 
+    
+    /* Main Wrapper */
+    
+    #main-img-wrapper{
+        height: 100vh;
+         margin-top: 0px;
+    }
+        
+    #main-text-wrapper{
+        color: #ffffff;
+        padding: 60% 0 0;
+        margin-left: 20%;
+    }
+    #main-text-wrapper p{
+        font-size: 1.3rem;
+    }
+        
+    #main-img-wrapper a{
+        width: 40%;
+        margin: 3% 0 0 20%;
+    }
+    
+    .announce{
+        font-size: 3rem;
+        margin: 8% auto 3%;
+    }
+    
+    /*   Mains   */
+    h1{
+        font-size: 4rem;
+    }
+    
+    /* models */
+    
+    .models .btn{
+        font-size: .8rem;
+    }
+    
+    .container-links ul{
+        display: flex;
+    }
+    
+    /* Specs */
+
+    .container-specs{
+        margin: 15% auto 8%;
+
+    }
+
+    .container-specs h2{
+        font-size: 1.2rem;
+        font-style: italic;
+        margin-bottom: 5%;
+    }
+
+    .container-specs ul{
+        list-style-type: none;
+        text-align: start;
+        padding-left: 20px;
+        line-height: 2.5rem;
+        font-size: .8rem
+    }
+
+    .container-specs ul li{
+        border-top: 2px solid #a8a8a8;
+        width: 80%
+    }
+
+    .container-specs ul li:nth-child(1){
+        border-top: none;
+
+    }
+    
+    footer .container-footer-links .col-sm-12:nth-child(4){
+    display: block;
+}
+
+    #spec-list{
+        margin: 5% 0 10% 10%;
+        border-left: 3px solid #191919
+    }
+    
+    /* city */
+
+    .container-city{
+        height: 100%;
+
+    }
+
+    .city-wrapper{
+        position: relative;
+        height: 600px;
+    }
+
+
+    #city-img{
+        background-image: url("../assets/images/Mobile/eGolf_City_Mobile"); 
+        background-color: #cccccc; 
+        width: 100%;height: 400px;
+        background-position: center;
+        background-repeat: no-repeat; 
+        background-size: cover; 
+        position: absolute;
+        top: 170px;
+        left: 0;
+    }
+
+    #city-text{
+        position: absolute;
+        top: 0px;
+        left: 0;
+        color: ;
+        margin:  0;
+        z-index: 10;
+
+    }
+
+    .container-city h4{
+        text-transform: uppercase;
+    }
+
+    .container-city p{
+        font-size: .9rem;
+        padding: 2% 10%;
+        text-align: start;
+    }
+
+    
+    /* Form */
+    
+    form h4{
+        font-size: 1.4rem;
+        margin: 0 0 2% 0;
+    }
+   
+    form .btn-primary{
+        width: 50%
+    }
+    
+    .form-control{
+        margin: auto;
+        width: 70%
+    }
+    
+    
+    /* Footer */
+    .no-padding{
+        padding: 0;
+    }
+    footer{
+        font-size: .7rem;
+        padding: 2% 0 0;
+    }
+
+    footer .collapsing ul{
+        padding: 0;
+
+    }
+
+    footer .collapse ul{
+        padding: 0;
+        margin: 0;
+        font-size: .8rem;
+        text-align: start
+    }
+
+    footer .collapse ul li{
+        color: #fff;
+        margin: 3% 0;
+    }
+    footer .collapse ul li:nth-child(1){
+        display: block;
+        text-align: start;
+        font-weight: 500;
+        font-size: 1.05rem;
+        margin: 0 0 10% 0;
+    }
+
+    footer hr{
+        border-top: 1px solid #c5c5c5;
+        width: 80%;
+       
+    }
+    footer .container-footer-links{
+        width: 80%;
+        margin: auto;
+    }
+    /* Footer bottom */
+    
+    footer .container-logo{
+        margin: 0 0 3%;
+    }
+    
+    footer .container-links ul li{
+        margin: 5% 2% ;
+        font-size: .6rem
+    }
+    footer .logo{
+    padding: 0; 
+    margin: 0 3% 0 0;
+    position: static;
+}
+
+.social-media-img{
+    width: 32px;
+}
+    
+
+}
+
+
+/* ---------------  Large Breakpoint   --------------- */
+/* ---------------  -----------------   --------------- */
+/* ---------------  -----------------   --------------- */
+
+@media (min-width: 992px) { 
+    
+    /* Nav */
+    nav .navbar{
+        text-transform: uppercase;
+    }
+    .navbar-nav{
+        font-size: 1rem;
+        margin-left: 2rem;
+    }
+    
+    .nav-link{
+        padding: 0.5rem 0;
+        color: #191919;
+        margin: 0 1.5rem 0 0.8rem;
+        font-weight: 500;
+    }
+    
+    #home-icon{
+        display: block;
+        width: 30px;
+    }
+    
+    .parent .logo{
+        position: absolute;
+        top: 25%;
+    }
+    
+    /* Landing Image */
+    
+    #main-img-wrapper{
+    background-image: url("../assets/images/Desktop/Main_Img_eGolf_Desktop");
+    }
+    
+    #main-img-wrapper{
+        height: 100vh;
+         margin-top: 0px;
+    }
+
+    #main-text-wrapper{
+        color: #ffffff;
+        padding: 50% 0 0;
+        margin-left: 20%;
+    }
+    #main-text-wrapper p{
+        font-size: 1.3rem;
+    }
+        
+    #main-img-wrapper a{
+        width: 30%;
+        margin: 0 0 0 20%;
+    }
+    
+    /* Specs */
+
+    .container-specs{
+        margin: 5% auto 8%;
+
+    }
+
+    .container-specs h2{
+        font-size: 1.6rem;
+        font-style: italic;
+        margin-bottom: 5%;
+    }
+
+    .container-specs ul{
+        list-style-type: none;
+        text-align: start;
+        padding-left: 20px;
+        line-height: 3.5rem;
+        font-size: 1rem
+    }
+
+    .container-specs ul li{
+        border-top: 2px solid #a8a8a8;
+        width: 80%
+    }
+
+    .container-specs ul li:nth-child(1){
+        border-top: none;
+
+    }
+
+    #spec-list{
+        margin: 5% 0 10% 10%;
+        border-left: 3px solid #191919
+    }
+    
+    /* city */
+
+    .container-city{
+        height: 100%;
+
+    }
+
+    .city-wrapper{
+        position: relative;
+        height: 700px;
+        font-weight: 300;
+    }
+
+
+    #city-img{
+        background-image: url("../assets/images/Desktop/eGolf_City_Desktop"); 
+        background-color: #cccccc; 
+        width: 100%;height: 700px;
+        background-position: center;
+        background-repeat: no-repeat; 
+        background-size: cover; 
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+
+    #city-text{
+        position: absolute;
+        top: 600px;
+        left: 30px;
+        color: #fff;
+        margin:  0;
+        text-align: start;
+        z-index: 10;
+    }
+
+    .container-city h4{
+        text-transform: uppercase;
+        font-weight: 400;
+    }
+
+    .container-city p{
+        font-size: .9rem;
+        padding: 0 10% 0 0;
+        text-align: start;
+    }
+    /* city */
+    .container-city h4{
+        font-size: 1.6rem;
+    }
+
+    .container-city p{
+        font-size: 1.1rem;
+    }
+    
+    /* call */
+
+    .container-call{
+        margin: 10% 5% 10%;
+        font-weight: 300;
+
+    }
+
+    .container-call h2{
+        font-weight: 400;
+        font-size: 1.6rem;
+    }
+
+    .container-call p{
+        font-size: 1.2rem;
+    }
+
+    
+    /* Form */
+    
+    .container-contact{
+        margin: 4% 0;
+    }
+    
+    form{
+        margin: 0% auto 5%;
+        padding: 0%;
+    }
+    
+    form h4{
+        font-size: 1.6rem;
+        margin: 0 0 2% 0;
+    }
+   
+    form .btn-primary{
+        width: 50%;
+        margin: 4% 0 0;
+    }
+    
+    .form-control{
+        margin: auto;
+        width: 70%
+    }
+    
+    .form-group{
+        margin: 4% 0;
+    }
+    
+    /* Footer */
+    
+    footer{
+        font-size: .9rem;
+    }
+    
+    .container-links{
+        margin: 0;   
+    }
+    
+
+    .social-media-img{
+        margin-top:1%
+    }
+    footer .container-links ul li{
+        margin:  2%;
+        font-size: .8rem;
+    }
+}
+
+/* ---------------  XLarge Breakpoint   --------------- */
+/* ---------------  -----------------   --------------- */
+/* ---------------  -----------------   --------------- */
+
+@media (min-width: 1200px) { 
+    
+
+    #main-text-wrapper{
+        color: #ffffff;
+        padding: 35% 0 0;
+        margin-left: 14%;
+    }
+    #main-text-wrapper p{
+        font-size: 1.3rem;
+    }
+        
+    #main-img-wrapper a{
+        width: 25%;
+        margin: 0 0 0 14%;
+    }
+    
+    form{
+        padding: 6%;
+    }
+    
+    footer .social-media-img{
+        width: 28px;
+        margin: 2%;
+    }
+    
+}
+
+/* ---------------  XXLarge Breakpoint   -------------- */
+/* ---------------  -----------------   --------------- */
+/* ---------------  -----------------   --------------- */
+
+@media (min-width: 1800px) { 
+    
+    /* Navbar */
+        
+    nav .navbar-nav{
+        font-size: 1.2rem;
+        line-height: 1.2rem;
+        margin-left: 4rem;
+    }
+    
+    .nav-link{
+        padding: 0.5rem 0;
+        margin: 0 3rem 0 2rem;
+        font-weight: 500;
+    }
+    
+    /* Main */
+    
+    h1{
+        font-size: 5rem;
+    }
+    
+    .btn{
+        font-size: 1.5rem;
+    }
+    
+    /* Main */
+    
+    #main-text-wrapper{
+        color: #ffffff;
+        padding: 38% 0 0;
+        margin-left: 14%;
+    }
+    #main-text-wrapper p{
+        font-size: 1.6rem;
+    }
+        
+    #main-img-wrapper a{
+        width: 25%;
+        margin: 0 0 0 14%;
+    }
+    
+    /* Specs */
+
+    .container-specs{
+        margin: 5% auto 8%;
+
+    }
+
+    .container-specs h2{
+        font-size: 2rem;
+        font-style: italic;
+        margin-bottom: 5%;
+    }
+
+    .container-specs ul{
+        list-style-type: none;
+        text-align: start;
+        padding-left: 20px;
+        line-height: 5rem;
+        font-size: 1.5rem
+    }
+
+    .container-specs ul li{
+        border-top: 2px solid #a8a8a8;
+        width: 80%
+    }
+    /* call */
+
+
+    .container-call h2{
+        font-weight: 400;
+        font-size: 3rem;
+    }
+
+    .container-call p{
+        font-size: 2rem;
+    }
+
+    
+    /* Form */
+    
+    form{
+        margin: 3% auto;
+    }
+    
+    form h4{
+        font-size: 3rem;
+        margin: 0 0 2% 0;
+    }
+    
+    .form-group{
+        margin: 3% 0;
+    }
+    
+    /* Footer */
+    
+    footer .container-footer-links ul li {
+        font-size: 1.1rem;
+    }
+    footer .collapse ul li:nth-child(1){
+        font-size: 1.2rem;
+    }
+    footer .logo{
+        width: 50px
+    }
+    footer .social-media-img{
+        width: 35px;
+        margin: 1%;
+       
+    }
+    footer .container-links ul li {
+        font-size: 0.95rem;
+    }
+}
+
+/* ---------------  4K Breakpoint   ------------------- */
+/* ---------------  -----------------   --------------- */
+/* ---------------  -----------------   --------------- */
+
+@media (min-width: 2200px) { 
+    
+    /* Navbar */
+        
+    nav .navbar-nav{
+        font-size: 1.3rem;
+        line-height: 1.3rem;
+        margin-left: 4rem;
+    }
+    
+    .nav-link{
+        padding: 0.5rem 0;
+        margin: 0 3rem 0 2rem;
+        font-weight: 500;
+    }
+    
+    /* Main */
+    
+    h1{
+        font-size: 5rem;
+    }
+    
+    .btn{
+        font-size: 1.5rem;
+    }
+    
+    /* Main */
+    
+    #main-text-wrapper{
+        color: #ffffff;
+        padding: 31% 0 0;
+        margin-left: 14%;
+    }
+    #main-text-wrapper p{
+        font-size: 1.6rem;
+    }
+        
+    #main-img-wrapper a{
+        width: 25%;
+        margin: 0 0 0 14%;
+    }
+    
+    /* Specs */
+
+    .container-specs{
+        margin: 5% auto 8%;
+
+    }
+
+    .container-specs h2{
+        font-size: 2rem;
+        font-style: italic;
+        margin-bottom: 5%;
+    }
+
+    .container-specs ul{
+        list-style-type: none;
+        text-align: start;
+        padding-left: 20px;
+        line-height: 5rem;
+        font-size: 1.5rem
+    }
+
+    .container-specs ul li{
+        border-top: 2px solid #a8a8a8;
+        width: 80%
+    }
+    
+    /* call */
+
+
+    .container-call h2{
+        font-weight: 400;
+        font-size: 3rem;
+    }
+
+    .container-call p{
+        font-size: 2rem;
+    }
+    
+    #city-text p{
+        font-size: 1.2rem;
+    }
+    
+    /* Form */
+
+    
+    .form-group{
+        margin: 3% 0;
+    }
+    .form-control{
+        font-size:1.2rem;
+    }
+    
+    /* Footer */
+    
+    footer .container-footer-links ul li {
+        font-size: 1.2rem;
+    }
+    footer .collapse ul li:nth-child(1){
+        font-size: 1.3rem;
+    }
+    footer .logo{
+        width: 50px
+    }
+    footer .social-media-img{
+        width: 35px;
+        margin: 1%;
+    }
+    footer .container-links ul li {
+        font-size: 1rem;
+    }
+}
